@@ -1,0 +1,86 @@
+/* Navbar.css */
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 28px;
+    background-color: #3f32b47e;
+    color: #fff;
+  }
+  
+  .Nav-logo {
+    font-size: 24px;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu li {
+    cursor: pointer;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+  }
+  
+  .nav-menu hr {
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-login-cart form {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .nav-login-cart input {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .nav-login-cart button {
+    padding: 8px 12px;
+    background-color: #6ad396;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .nav-login-cart button:hover {
+    background-color: #218c53;
+  }
+
+  .nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: #fff;
+  }
+  
+  
+  .cart {
+    margin-left: 20px;
+  }
+  
